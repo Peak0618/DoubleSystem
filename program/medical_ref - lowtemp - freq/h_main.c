@@ -101,14 +101,14 @@ void system_init(void)
         
     switch_init();            //拨码开关初始化
 
-    /*gss_E2_writed_flag = eeprom_read(255);
+    gss_E2_writed_flag = eeprom_read(255);
     if(gss_E2_writed_flag != 0xbb)   //变频aa.双系统bb
     {        
         init_ram_para2();       
         init_ram_para();
         
         eeprom_write(255,0xbb);
-    }*/
+    }
     
     //----------------------------------
     //init_ram_para2();       //若包工修改e2参数打开，正式关闭

@@ -748,7 +748,7 @@ void alarm_buzz_deal(void)
             if(bflg_power_off_alarm == 1)
             {
                 bflg_power_off_alarm = 0;
-                //bflg_buzz_one_tick_set = 1;  //包工注释,断电滴滴
+                bflg_buzz_one_tick_set = 1;  //包工注释,断电滴滴
             }
         }
 
